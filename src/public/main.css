@@ -1,0 +1,23 @@
+/* input:-internal-autofill-selected {
+  filter: hue-rotate(50deg);
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+fieldset {
+  background-color: rgba(13, 110, 253, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.form-control {
+  font-weight: 600;
+}
+.form-floating > label {
+  left: initial;
+}
